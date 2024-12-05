@@ -1,0 +1,100 @@
+#mainHeading{
+    color:  lightgoldenrodyellow;
+    background-color: sienna;
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px black;
+    border: 10px solid palegreen;
+    border-radius: 40px;
+}
+
+.mainDiv{
+    width: 20%;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.player{
+    width: 100%;
+}
+
+#shreyasIyerDiv{
+    background-color: cadetblue;
+    border: 8px dotted darkred;
+}
+
+#viratKohliDiv{
+    background-color: darkorange;
+    border: 8px groove lime;
+}
+
+#sanjuSamsonDiv{
+    background-color: darkolivegreen;
+    border: 8px double darkred;
+}
+
+#ruturajGaikwadDiv{
+    background-color: limegreen;
+    border: 8px groove palevioletred;
+}
+
+#rohitSharmaDiv{
+    background-color: cornflowerblue;
+    border: 8px dashed darkorchid;
+}
+
+#patCumminsDiv{
+    background-color: lightslategrey;
+    border: 8px groove black;
+}
+
+#rishabhPantDiv{
+    background-color: bisque;
+    border: 8px inset lightcoral;
+}
+
+#KLRahulDiv{
+    background-color: aqua;
+    border: 8px outset lightgreen;
+}
+
+@media only screen and (min-width:1px) and (max-width:576px){
+    body{
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px){
+    body{
+        background-color:blue ;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-color:yellow ;
+    }
+    
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    body{
+        background-color:violet ;
+    }
+
+}
+
+@media screen and (min-width:1200px) and (max-width:1400px){
+    body{
+        background-color:lightgrey ;
+    }
+
+}
